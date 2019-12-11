@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <img src="./assets/logo.png">
+      <p>这可以看做是导航栏</p>
+      <router-link to="/index">首页</router-link>
+      <router-link to="/userCenter">个人中心</router-link>
     <router-view/>
   </div>
 </template>
